@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tpdnxu.github.io/2024/09/21/%E5%BF%AB%E9%80%9F%E9%96%8B%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo/</loc>
+    
+    <lastmod>2024-09-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tpdnxu.github.io/about/index.html</loc>
+    
+    <lastmod>2024-09-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/2024/09/21/%E9%83%A8%E7%BD%B2Hexo%E5%88%B0GitHub-Pages/</loc>
     
     <lastmod>2024-09-21</lastmod>
     
@@ -13,7 +31,7 @@
   <url>
     <loc>https://tpdnxu.github.io/2024/09/20/hello-world/</loc>
     
-    <lastmod>2024-09-20</lastmod>
+    <lastmod>2024-09-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -47,14 +65,7 @@
 
   
   <url>
-    <loc>https://tpdnxu.github.io/tags/hexo/</loc>
-    <lastmod>2024-09-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tpdnxu.github.io/tags/others/</loc>
+    <loc>https://tpdnxu.github.io/tags/Hexo/</loc>
     <lastmod>2024-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -63,7 +74,7 @@
 
   
   <url>
-    <loc>https://tpdnxu.github.io/categories/others/</loc>
+    <loc>https://tpdnxu.github.io/categories/%E6%87%89%E7%94%A8%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2024-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
