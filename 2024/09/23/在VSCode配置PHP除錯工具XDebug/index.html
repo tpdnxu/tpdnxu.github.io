@@ -20,15 +20,21 @@
     var CONFIG = {"hostname":"tpdnxu.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="後端開發技術分享">
-<meta property="og:url" content="https://tpdnxu.github.io/categories/%E6%87%89%E7%94%A8%E5%B7%A5%E5%85%B7/index.html">
+  <meta property="og:type" content="article">
+<meta property="og:title" content="在VSCode配置PHP除錯工具XDebug">
+<meta property="og:url" content="https://tpdnxu.github.io/2024/09/23/%E5%9C%A8VSCode%E9%85%8D%E7%BD%AEPHP%E9%99%A4%E9%8C%AF%E5%B7%A5%E5%85%B7XDebug/index.html">
 <meta property="og:site_name" content="後端開發技術分享">
 <meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://tpdnxu.github.io/images/vscodexdebug.jpg">
+<meta property="article:published_time" content="2024-09-23T08:39:46.000Z">
+<meta property="article:modified_time" content="2024-09-23T09:02:15.514Z">
 <meta property="article:author" content="Sam">
+<meta property="article:tag" content="PHP">
+<meta property="article:tag" content="VSCode">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://tpdnxu.github.io/images/vscodexdebug.jpg">
 
-<link rel="canonical" href="https://tpdnxu.github.io/categories/%E6%87%89%E7%94%A8%E5%B7%A5%E5%85%B7/">
+<link rel="canonical" href="https://tpdnxu.github.io/2024/09/23/%E5%9C%A8VSCode%E9%85%8D%E7%BD%AEPHP%E9%99%A4%E9%8C%AF%E5%B7%A5%E5%85%B7XDebug/">
 
 
 <script id="page-configurations">
@@ -36,12 +42,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-TW'
   };
 </script>
 
-  <title>分類: 應用工具 | 後端開發技術分享</title>
+  <title>在VSCode配置PHP除錯工具XDebug | 後端開發技術分享</title>
   
 
 
@@ -182,235 +188,110 @@
         <div class="content-wrap">
           
 
-          <div class="content category">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">應用工具
-          <small>分類</small>
-        </h2>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://tpdnxu.github.io/2024/09/23/%E5%9C%A8VSCode%E9%85%8D%E7%BD%AEPHP%E9%99%A4%E9%8C%AF%E5%B7%A5%E5%85%B7XDebug/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Sam">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="後端開發技術分享">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          在VSCode配置PHP除錯工具XDebug
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+              
+
+              <time title="創建時間：2024-09-23 16:39:46 / 修改時間：17:02:15" itemprop="dateCreated datePublished" datetime="2024-09-23T16:39:46+08:00">2024-09-23</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%87%89%E7%94%A8%E5%B7%A5%E5%85%B7/" itemprop="url" rel="index"><span itemprop="name">應用工具</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2024</span>
+        <p><img src="/images/vscodexdebug.jpg"></p>
+<span id="more"></span>
+
+<h4 id="操作步驟"><a href="#操作步驟" class="headerlink" title="操作步驟"></a>操作步驟</h4><ol>
+<li>開啟 <a target="_blank" rel="noopener" href="https://xdebug.org/wizard">Installation Wizard</a> 頁面</li>
+<li>打開命令提示字元執行 <code>php -i | clip</code> 複製PHP信息後貼上</li>
+<li>下載Xdebug擴充模組 <a href="">php_xdebug-3.3.1-8.1-vs16-nts-x86_64.dll</a></li>
+<li>移動下載完成的擴充模組至PHP安裝路徑下的ext目錄</li>
+<li>編輯PHP配置檔並加入Xdebug擴充模組</li>
+<li>編輯VSCode的PHP配置(開啟VSCode設定&#x2F;<a href="">Ctrl+,</a>搜尋PHP後設置指向PHP可執行檔)</li>
+<li>使用VSCode開啟專案目錄點擊執行選擇新增組態或在除錯模式建立 <code>launch.json</code></li>
+</ol>
+<h4 id="檔案配置"><a href="#檔案配置" class="headerlink" title="檔案配置"></a>檔案配置</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 編輯PHP配置文件</span></span><br><span class="line">$ code C:\AppServ\php\php-8.1.11-nts-Win32-vs16-x64\php.ini</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">[XDebug]</span></span><br><span class="line"><span class="attr">zend_extension</span>=C:\AppServ\php\php-<span class="number">8.1</span>.<span class="number">11</span>\ext\php_xdebug-<span class="number">3.3</span>.<span class="number">1</span>-<span class="number">8.1</span>-vs16-nts-x<span class="number">86_64</span>.dll</span><br><span class="line"><span class="attr">xdebug.mode</span>=debug</span><br><span class="line"><span class="attr">xdebug.client_port</span>=<span class="number">9003</span></span><br><span class="line"><span class="attr">xdebug.start_with_request</span>=<span class="literal">yes</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 編輯VSCode設定檔案</span></span><br><span class="line">$ code %USERPROFILE%\AppData\Roaming\Code\User\settings.json</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="comment">// 在VSCode設定PHP可執行檔</span></span><br><span class="line">    <span class="attr">&quot;php.debug.executablePath&quot;</span><span class="punctuation">:</span> <span class="string">&quot;C:/php/php-8.1.11-nts-Win32-vs16-x64/php.exe&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;php.validate.executablePath&quot;</span><span class="punctuation">:</span> <span class="string">&quot;C:/php/php-8.1.11-nts-Win32-vs16-x64/php.exe&quot;</span><span class="punctuation">,</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="檢查配置"><a href="#檢查配置" class="headerlink" title="檢查配置"></a>檢查配置</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看PHP有無配置XDebug</span></span><br><span class="line">$ php --ri xdebug</span><br></pre></td></tr></table></figure>
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2024-09-23T16:39:46+08:00"
-              content="2024-09-23">
-          09-23
-        </time>
-      </div>
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/PHP/" rel="tag"># PHP</a>
+              <a href="/tags/VSCode/" rel="tag"># VSCode</a>
+          </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2024/09/23/%E5%9C%A8VSCode%E9%85%8D%E7%BD%AEPHP%E9%99%A4%E9%8C%AF%E5%B7%A5%E5%85%B7XDebug/" itemprop="url">
-            <span itemprop="name">在VSCode配置PHP除錯工具XDebug</span>
-          </a>
-      </div>
+        
 
-    </header>
-  </article>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2024-09-23T15:36:58+08:00"
-              content="2024-09-23">
-          09-23
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2024/09/23/%E4%BD%BF%E7%94%A8Node-Version-Manager%E5%88%87%E6%8F%9BNode%E7%89%88%E6%9C%AC/" itemprop="url">
-            <span itemprop="name">使用Node Version Manager切換Node版本</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2024-09-23T15:20:57+08:00"
-              content="2024-09-23">
-          09-23
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2024/09/23/%E6%8F%90%E5%8D%87Windows%E7%B3%BB%E7%B5%B1%E7%AE%A1%E7%90%86%E5%93%A1%E6%AC%8A%E9%99%90%E5%B7%A5%E5%85%B7gsudo/" itemprop="url">
-            <span itemprop="name">提升Windows系統管理員權限工具gsudo</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2024-09-23T13:56:35+08:00"
-              content="2024-09-23">
-          09-23
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2024/09/23/%E5%9C%A8Windows%E5%AE%89%E8%A3%9DPowerShell/" itemprop="url">
-            <span itemprop="name">在Windows安裝PowerShell</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2024-09-23T13:28:04+08:00"
-              content="2024-09-23">
-          09-23
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2024/09/23/%E5%AE%89%E8%A3%9D%E7%8F%BE%E4%BB%A3%E5%8C%96%E7%B5%82%E7%AB%AF%E6%A9%9FWindows-Terminal/" itemprop="url">
-            <span itemprop="name">安裝現代化終端機Windows Terminal</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2024-09-23T12:25:17+08:00"
-              content="2024-09-23">
-          09-23
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2024/09/23/AI%E7%A8%8B%E5%BC%8F%E7%B7%A8%E8%BC%AF%E5%99%A8Cursor/" itemprop="url">
-            <span itemprop="name">AI程式編輯器Cursor</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2024-09-23T12:14:53+08:00"
-              content="2024-09-23">
-          09-23
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2024/09/23/%E5%AE%89%E8%A3%9DCaddy%E7%B6%B2%E9%A0%81%E6%9C%8D%E5%8B%99%E5%99%A8/" itemprop="url">
-            <span itemprop="name">安裝Caddy網頁服務器</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2024-09-23T11:39:53+08:00"
-              content="2024-09-23">
-          09-23
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2024/09/23/%E4%BD%BF%E7%94%A8WinSW%E5%B0%87%E6%87%89%E7%94%A8%E5%AE%89%E8%A3%9D%E7%82%BAWindows%E7%B3%BB%E7%B5%B1%E6%9C%8D%E5%8B%99/" itemprop="url">
-            <span itemprop="name">使用WinSW將Caddy安裝為Windows系統服務</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2024-09-23T11:23:16+08:00"
-              content="2024-09-23">
-          09-23
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2024/09/23/%E4%BD%BF%E7%94%A8Pathman%E5%B7%A5%E5%85%B7%E7%AE%A1%E7%90%86Windows%E7%9A%84PATH/" itemprop="url">
-            <span itemprop="name">使用Pathman工具管理Windows的PATH</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2024-09-23T11:12:22+08:00"
-              content="2024-09-23">
-          09-23
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2024/09/23/%E4%BD%BF%E7%94%A8WinGet%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%9D%E5%92%8C%E7%AE%A1%E7%90%86%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F/" itemprop="url">
-            <span itemprop="name">使用WinGet工具安裝和管理應用程式</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2024/09/23/%E4%BD%BF%E7%94%A8Node-Version-Manager%E5%88%87%E6%8F%9BNode%E7%89%88%E6%9C%AC/" rel="prev" title="使用Node Version Manager切換Node版本">
+      <i class="fa fa-chevron-left"></i> 使用Node Version Manager切換Node版本
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-  </div>
+      </footer>
+    
+  </article>
   
   
   
-
-  
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/categories/%E6%87%89%E7%94%A8%E5%B7%A5%E5%85%B7/page/2/">2</a><a class="extend next" rel="next" href="/categories/%E6%87%89%E7%94%A8%E5%B7%A5%E5%85%B7/page/2/"><i class="fa fa-angle-right" aria-label="下一頁"></i></a>
-  </nav>
 
 
 
@@ -462,6 +343,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%93%8D%E4%BD%9C%E6%AD%A5%E9%A9%9F"><span class="nav-number">1.</span> <span class="nav-text">操作步驟</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%AA%94%E6%A1%88%E9%85%8D%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text">檔案配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%AA%A2%E6%9F%A5%E9%85%8D%E7%BD%AE"><span class="nav-number">3.</span> <span class="nav-text">檢查配置</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
