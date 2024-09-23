@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tpdnxu.github.io/2024/09/23/AI%E7%A8%8B%E5%BC%8F%E7%B7%A8%E8%BC%AF%E5%99%A8Cursor/</loc>
+    
+    <lastmod>2024-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/2024/09/23/%E5%AE%89%E8%A3%9DCaddy%E7%B6%B2%E9%A0%81%E6%9C%8D%E5%8B%99%E5%99%A8/</loc>
+    
+    <lastmod>2024-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/2024/09/23/%E4%BD%BF%E7%94%A8WinSW%E5%B0%87%E6%87%89%E7%94%A8%E5%AE%89%E8%A3%9D%E7%82%BAWindows%E7%B3%BB%E7%B5%B1%E6%9C%8D%E5%8B%99/</loc>
+    
+    <lastmod>2024-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/2024/09/23/%E4%BD%BF%E7%94%A8Pathman%E5%B7%A5%E5%85%B7%E7%AE%A1%E7%90%86Windows%E7%9A%84PATH/</loc>
+    
+    <lastmod>2024-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/2024/09/23/%E4%BD%BF%E7%94%A8WinGet%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%9D%E5%92%8C%E7%AE%A1%E7%90%86%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F/</loc>
+    
+    <lastmod>2024-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tpdnxu.github.io/2024/09/20/%E5%BF%AB%E9%80%9F%E9%96%8B%E5%A7%8B%E4%BD%BF%E7%94%A8Hexo/</loc>
     
     <lastmod>2024-09-23</lastmod>
@@ -110,13 +155,6 @@
 
   
   <url>
-    <loc>https://tpdnxu.github.io/tags/others/</loc>
-    <lastmod>2024-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://tpdnxu.github.io/tags/WSL/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -131,6 +169,13 @@
   </url>
   
   <url>
+    <loc>https://tpdnxu.github.io/tags/others/</loc>
+    <lastmod>2024-09-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://tpdnxu.github.io/tags/OhMyPosh/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -138,7 +183,21 @@
   </url>
   
   <url>
-    <loc>https://tpdnxu.github.io/tags/X-CMD/</loc>
+    <loc>https://tpdnxu.github.io/tags/Cursor/</loc>
+    <lastmod>2024-09-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/tags/WinGet/</loc>
+    <lastmod>2024-09-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/tags/Pathman/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -152,7 +211,21 @@
   </url>
   
   <url>
-    <loc>https://tpdnxu.github.io/tags/Hexo/</loc>
+    <loc>https://tpdnxu.github.io/tags/WinSW/</loc>
+    <lastmod>2024-09-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/tags/Caddy/</loc>
+    <lastmod>2024-09-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/tags/X-CMD/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -165,17 +238,24 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://tpdnxu.github.io/tags/Hexo/</loc>
+    <lastmod>2024-09-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
-    <loc>https://tpdnxu.github.io/categories/%E5%85%B6%E4%BB%96/</loc>
+    <loc>https://tpdnxu.github.io/categories/%E6%87%89%E7%94%A8%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://tpdnxu.github.io/categories/%E6%87%89%E7%94%A8%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://tpdnxu.github.io/categories/%E5%85%B6%E4%BB%96/</loc>
     <lastmod>2024-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
