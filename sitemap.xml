@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://tpdnxu.github.io/2024/09/24/%E4%BD%BF%E7%94%A8Caddy%E9%83%A8%E7%BD%B2Laravel%E9%96%8B%E7%99%BC%E7%92%B0%E5%A2%83/</loc>
+    <loc>https://tpdnxu.github.io/2024/09/24/%E4%BD%BF%E7%94%A8Caddy%E9%83%A8%E7%BD%B2Laravel%E6%A1%86%E6%9E%B6/</loc>
+    
+    <lastmod>2024-09-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/2024/09/24/%E4%BD%BF%E7%94%A8Caddy%E9%83%A8%E7%BD%B2Hexo%E9%83%A8%E8%90%BD%E6%A0%BC/</loc>
     
     <lastmod>2024-09-24</lastmod>
     
@@ -227,6 +236,20 @@
 
   
   <url>
+    <loc>https://tpdnxu.github.io/tags/WSL/</loc>
+    <lastmod>2024-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/tags/CentOS/</loc>
+    <lastmod>2024-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://tpdnxu.github.io/tags/Cursor/</loc>
     <lastmod>2024-09-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -248,7 +271,21 @@
   </url>
   
   <url>
+    <loc>https://tpdnxu.github.io/tags/Hexo/</loc>
+    <lastmod>2024-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://tpdnxu.github.io/tags/Laravel/</loc>
+    <lastmod>2024-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/tags/Pathman/</loc>
     <lastmod>2024-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -269,20 +306,6 @@
   </url>
   
   <url>
-    <loc>https://tpdnxu.github.io/tags/WSL/</loc>
-    <lastmod>2024-09-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tpdnxu.github.io/tags/CentOS/</loc>
-    <lastmod>2024-09-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://tpdnxu.github.io/tags/OhMyPosh/</loc>
     <lastmod>2024-09-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -291,13 +314,6 @@
   
   <url>
     <loc>https://tpdnxu.github.io/tags/WinGet/</loc>
-    <lastmod>2024-09-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tpdnxu.github.io/tags/Pathman/</loc>
     <lastmod>2024-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -318,14 +334,14 @@
   </url>
   
   <url>
-    <loc>https://tpdnxu.github.io/tags/Warp/</loc>
+    <loc>https://tpdnxu.github.io/tags/X-CMD/</loc>
     <lastmod>2024-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://tpdnxu.github.io/tags/X-CMD/</loc>
+    <loc>https://tpdnxu.github.io/tags/Warp/</loc>
     <lastmod>2024-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -339,20 +355,6 @@
   </url>
   
   <url>
-    <loc>https://tpdnxu.github.io/tags/PowerShell/</loc>
-    <lastmod>2024-09-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tpdnxu.github.io/tags/Hexo/</loc>
-    <lastmod>2024-09-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://tpdnxu.github.io/tags/Windows-Terminal/</loc>
     <lastmod>2024-09-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -360,7 +362,7 @@
   </url>
   
   <url>
-    <loc>https://tpdnxu.github.io/tags/Termius/</loc>
+    <loc>https://tpdnxu.github.io/tags/PowerShell/</loc>
     <lastmod>2024-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -375,6 +377,13 @@
   
   <url>
     <loc>https://tpdnxu.github.io/tags/Fonts/</loc>
+    <lastmod>2024-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/tags/Termius/</loc>
     <lastmod>2024-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
