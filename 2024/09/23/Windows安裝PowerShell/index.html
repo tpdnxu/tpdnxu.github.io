@@ -21,19 +21,19 @@
   </script>
 
   <meta property="og:type" content="article">
-<meta property="og:title" content="跨平台SSH客戶端Termius">
-<meta property="og:url" content="https://tpdnxu.github.io/2024/09/24/%E8%B7%A8%E5%B9%B3%E5%8F%B0SSH%E5%AE%A2%E6%88%B6%E7%AB%AFTermius/index.html">
+<meta property="og:title" content="Windows安裝PowerShell">
+<meta property="og:url" content="https://tpdnxu.github.io/2024/09/23/Windows%E5%AE%89%E8%A3%9DPowerShell/index.html">
 <meta property="og:site_name" content="後端開發技術分享">
 <meta property="og:locale" content="zh_TW">
-<meta property="og:image" content="https://tpdnxu.github.io/images/termius3.png">
-<meta property="article:published_time" content="2024-09-24T02:22:29.000Z">
-<meta property="article:modified_time" content="2024-09-24T02:40:06.076Z">
+<meta property="og:image" content="https://tpdnxu.github.io/images/powershell.png">
+<meta property="article:published_time" content="2024-09-23T05:56:35.000Z">
+<meta property="article:modified_time" content="2024-09-24T05:00:17.388Z">
 <meta property="article:author" content="Sam">
-<meta property="article:tag" content="Termius">
+<meta property="article:tag" content="PowerShell">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://tpdnxu.github.io/images/termius3.png">
+<meta name="twitter:image" content="https://tpdnxu.github.io/images/powershell.png">
 
-<link rel="canonical" href="https://tpdnxu.github.io/2024/09/24/%E8%B7%A8%E5%B9%B3%E5%8F%B0SSH%E5%AE%A2%E6%88%B6%E7%AB%AFTermius/">
+<link rel="canonical" href="https://tpdnxu.github.io/2024/09/23/Windows%E5%AE%89%E8%A3%9DPowerShell/">
 
 
 <script id="page-configurations">
@@ -46,7 +46,7 @@
   };
 </script>
 
-  <title>跨平台SSH客戶端Termius | 後端開發技術分享</title>
+  <title>Windows安裝PowerShell | 後端開發技術分享</title>
   
 
 
@@ -195,7 +195,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://tpdnxu.github.io/2024/09/24/%E8%B7%A8%E5%B9%B3%E5%8F%B0SSH%E5%AE%A2%E6%88%B6%E7%AB%AFTermius/">
+    <link itemprop="mainEntityOfPage" href="https://tpdnxu.github.io/2024/09/23/Windows%E5%AE%89%E8%A3%9DPowerShell/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -208,7 +208,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          跨平台SSH客戶端Termius
+          Windows安裝PowerShell
         </h1>
 
         <div class="post-meta">
@@ -217,10 +217,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">發表於</span>
-              
 
-              <time title="創建時間：2024-09-24 10:22:29 / 修改時間：10:40:06" itemprop="dateCreated datePublished" datetime="2024-09-24T10:22:29+08:00">2024-09-24</time>
+              <time title="創建時間：2024-09-23 13:56:35" itemprop="dateCreated datePublished" datetime="2024-09-23T13:56:35+08:00">2024-09-23</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2024-09-24 13:00:17" itemprop="dateModified" datetime="2024-09-24T13:00:17+08:00">2024-09-24</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -242,10 +248,10 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p><img src="/images/termius3.png"></p>
+        <p><img src="/images/powershell.png"></p>
 <span id="more"></span>
 
-<h4 id="下載安裝"><a href="#下載安裝" class="headerlink" title="下載安裝"></a>下載安裝</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Winget</span></span><br><span class="line">$ winget install --<span class="built_in">id</span> Termius.Termius</span><br></pre></td></tr></table></figure>
+<h4 id="下載安裝"><a href="#下載安裝" class="headerlink" title="下載安裝"></a>下載安裝</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Winget(recommand)</span></span><br><span class="line">$ winget install --<span class="built_in">id</span> Microsoft.PowerShell --<span class="built_in">source</span> winget</span><br></pre></td></tr></table></figure>
     </div>
 
     
@@ -254,7 +260,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/Termius/" rel="tag"># Termius</a>
+              <a href="/tags/PowerShell/" rel="tag"># PowerShell</a>
           </div>
 
         
@@ -263,12 +269,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2024/09/24/VSCode-Windows%E5%BF%AB%E6%8D%B7%E9%8D%B5/" rel="prev" title="VSCode Windows快捷鍵">
-      <i class="fa fa-chevron-left"></i> VSCode Windows快捷鍵
+    <a href="/2024/09/23/%E5%AE%89%E8%A3%9D%E7%8F%BE%E4%BB%A3%E5%8C%96%E7%B5%82%E7%AB%AF%E6%A9%9FWindows-Terminal/" rel="prev" title="安裝現代化終端機Windows Terminal">
+      <i class="fa fa-chevron-left"></i> 安裝現代化終端機Windows Terminal
     </a></div>
       <div class="post-nav-item">
-    <a href="/2024/09/24/%E4%BD%BF%E7%94%A8Caddy%E9%83%A8%E7%BD%B2Laravel%E6%A1%86%E6%9E%B6/" rel="next" title="使用Caddy部署Laravel框架">
-      使用Caddy部署Laravel框架 <i class="fa fa-chevron-right"></i>
+    <a href="/2024/09/23/%E4%BD%BF%E7%94%A8gsudo%E6%8F%90%E5%8D%87Windows%E7%B3%BB%E7%B5%B1%E7%AE%A1%E7%90%86%E5%93%A1%E6%AC%8A%E9%99%90/" rel="next" title="使用gsudo提升Windows系統管理員權限">
+      使用gsudo提升Windows系統管理員權限 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>

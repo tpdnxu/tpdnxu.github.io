@@ -21,19 +21,19 @@
   </script>
 
   <meta property="og:type" content="article">
-<meta property="og:title" content="在Windows安裝PowerShell">
-<meta property="og:url" content="https://tpdnxu.github.io/2024/09/23/%E5%9C%A8Windows%E5%AE%89%E8%A3%9DPowerShell/index.html">
+<meta property="og:title" content="安裝命令行增強工具X-CMD">
+<meta property="og:url" content="https://tpdnxu.github.io/2024/09/22/%E5%AE%89%E8%A3%9D%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%A2%9E%E5%BC%B7%E5%B7%A5%E5%85%B7X-CMD/index.html">
 <meta property="og:site_name" content="後端開發技術分享">
 <meta property="og:locale" content="zh_TW">
-<meta property="og:image" content="https://tpdnxu.github.io/images/powershell.png">
-<meta property="article:published_time" content="2024-09-23T05:56:35.000Z">
-<meta property="article:modified_time" content="2024-09-23T06:02:44.885Z">
+<meta property="og:image" content="https://tpdnxu.github.io/images/xcmd.png">
+<meta property="article:published_time" content="2024-09-22T08:00:19.000Z">
+<meta property="article:modified_time" content="2024-09-24T05:03:39.831Z">
 <meta property="article:author" content="Sam">
-<meta property="article:tag" content="PowerShell">
+<meta property="article:tag" content="X-CMD">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://tpdnxu.github.io/images/powershell.png">
+<meta name="twitter:image" content="https://tpdnxu.github.io/images/xcmd.png">
 
-<link rel="canonical" href="https://tpdnxu.github.io/2024/09/23/%E5%9C%A8Windows%E5%AE%89%E8%A3%9DPowerShell/">
+<link rel="canonical" href="https://tpdnxu.github.io/2024/09/22/%E5%AE%89%E8%A3%9D%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%A2%9E%E5%BC%B7%E5%B7%A5%E5%85%B7X-CMD/">
 
 
 <script id="page-configurations">
@@ -46,7 +46,7 @@
   };
 </script>
 
-  <title>在Windows安裝PowerShell | 後端開發技術分享</title>
+  <title>安裝命令行增強工具X-CMD | 後端開發技術分享</title>
   
 
 
@@ -195,7 +195,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://tpdnxu.github.io/2024/09/23/%E5%9C%A8Windows%E5%AE%89%E8%A3%9DPowerShell/">
+    <link itemprop="mainEntityOfPage" href="https://tpdnxu.github.io/2024/09/22/%E5%AE%89%E8%A3%9D%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%A2%9E%E5%BC%B7%E5%B7%A5%E5%85%B7X-CMD/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -208,7 +208,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          在Windows安裝PowerShell
+          安裝命令行增強工具X-CMD
         </h1>
 
         <div class="post-meta">
@@ -217,10 +217,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">發表於</span>
-              
 
-              <time title="創建時間：2024-09-23 13:56:35 / 修改時間：14:02:44" itemprop="dateCreated datePublished" datetime="2024-09-23T13:56:35+08:00">2024-09-23</time>
+              <time title="創建時間：2024-09-22 16:00:19" itemprop="dateCreated datePublished" datetime="2024-09-22T16:00:19+08:00">2024-09-22</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2024-09-24 13:03:39" itemprop="dateModified" datetime="2024-09-24T13:03:39+08:00">2024-09-24</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -242,10 +248,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p><img src="/images/powershell.png"></p>
+        <p><img src="/images/xcmd.png"></p>
 <span id="more"></span>
+<h4 id="下載安裝"><a href="#下載安裝" class="headerlink" title="下載安裝"></a>下載安裝</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 為Windows用戶設計的安裝/啟動模式</span></span><br><span class="line">$ curl https://get.x-cmd.com/x.bat -o xcmd.bat</span><br></pre></td></tr></table></figure>
 
-<h4 id="下載安裝"><a href="#下載安裝" class="headerlink" title="下載安裝"></a>下載安裝</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Winget(recommand)</span></span><br><span class="line">$ winget install --<span class="built_in">id</span> Microsoft.PowerShell --<span class="built_in">source</span> winget</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Linux/macOS/WSL/Cygwin/Mignw/Git-Bash</span></span><br><span class="line">$ <span class="built_in">eval</span> <span class="string">&quot;<span class="subst">$(curl https://get.x-cmd.com)</span>&quot;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Linux/macOS/WSL/Cygwin/Mignw/Git-Bash</span></span><br><span class="line">$ <span class="built_in">eval</span> <span class="string">&quot;<span class="subst">$(wget -O- https://get.x-cmd.com)</span>&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="更新版本"><a href="#更新版本" class="headerlink" title="更新版本"></a>更新版本</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 更新X-CMD至最新版本</span></span><br><span class="line">$ x upgrade</span><br></pre></td></tr></table></figure>
     </div>
 
     
@@ -254,7 +265,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/PowerShell/" rel="tag"># PowerShell</a>
+              <a href="/tags/X-CMD/" rel="tag"># X-CMD</a>
           </div>
 
         
@@ -263,12 +274,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2024/09/23/%E5%AE%89%E8%A3%9D%E7%8F%BE%E4%BB%A3%E5%8C%96%E7%B5%82%E7%AB%AF%E6%A9%9FWindows-Terminal/" rel="prev" title="安裝現代化終端機Windows Terminal">
-      <i class="fa fa-chevron-left"></i> 安裝現代化終端機Windows Terminal
+    <a href="/2024/09/22/Linux%E7%B3%BB%E7%B5%B1%E5%AE%89%E8%A3%9DWarp/" rel="prev" title="Linux系統安裝Warp">
+      <i class="fa fa-chevron-left"></i> Linux系統安裝Warp
     </a></div>
       <div class="post-nav-item">
-    <a href="/2024/09/23/%E6%8F%90%E5%8D%87Windows%E7%B3%BB%E7%B5%B1%E7%AE%A1%E7%90%86%E5%93%A1%E6%AC%8A%E9%99%90%E5%B7%A5%E5%85%B7gsudo/" rel="next" title="提升Windows系統管理員權限工具gsudo">
-      提升Windows系統管理員權限工具gsudo <i class="fa fa-chevron-right"></i>
+    <a href="/2024/09/23/%E4%BD%BF%E7%94%A8WinGet%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%9D%E5%92%8C%E7%AE%A1%E7%90%86%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F/" rel="next" title="使用WinGet工具安裝和管理應用程式">
+      使用WinGet工具安裝和管理應用程式 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -328,7 +339,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%8B%E8%BC%89%E5%AE%89%E8%A3%9D"><span class="nav-number">1.</span> <span class="nav-text">下載安裝</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%8B%E8%BC%89%E5%AE%89%E8%A3%9D"><span class="nav-number">1.</span> <span class="nav-text">下載安裝</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9B%B4%E6%96%B0%E7%89%88%E6%9C%AC"><span class="nav-number">2.</span> <span class="nav-text">更新版本</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
