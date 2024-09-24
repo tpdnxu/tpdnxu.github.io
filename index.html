@@ -20,10 +20,12 @@
     var CONFIG = {"hostname":"tpdnxu.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
   </script>
 
-  <meta property="og:type" content="website">
+  <meta name="description" content="找一件可以做很久的事">
+<meta property="og:type" content="website">
 <meta property="og:title" content="後端開發技術分享">
 <meta property="og:url" content="https://tpdnxu.github.io/index.html">
 <meta property="og:site_name" content="後端開發技術分享">
+<meta property="og:description" content="找一件可以做很久的事">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:author" content="Sam">
 <meta name="twitter:card" content="summary">
@@ -95,6 +97,7 @@
       <h1 class="site-title">後端開發技術分享</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
+      <p class="site-subtitle" itemprop="description">PHP、Laravel、Lumen、thinkPHP</p>
   </div>
 
   <div class="site-nav-right">
@@ -121,7 +124,7 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤<span class="badge">20</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤<span class="badge">22</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
@@ -131,7 +134,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔<span class="badge">18</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔<span class="badge">21</span></a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -188,12 +191,230 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://tpdnxu.github.io/2024/09/24/%E4%BD%BF%E7%94%A8Caddy%E9%83%A8%E7%BD%B2Laravel%E9%96%8B%E7%99%BC%E7%92%B0%E5%A2%83/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Sam">
+      <meta itemprop="description" content="找一件可以做很久的事">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="後端開發技術分享">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/09/24/%E4%BD%BF%E7%94%A8Caddy%E9%83%A8%E7%BD%B2Laravel%E9%96%8B%E7%99%BC%E7%92%B0%E5%A2%83/" class="post-title-link" itemprop="url">使用Caddy部署Laravel開發環境</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+              
+
+              <time title="創建時間：2024-09-24 10:44:45 / 修改時間：11:14:59" itemprop="dateCreated datePublished" datetime="2024-09-24T10:44:45+08:00">2024-09-24</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%87%89%E7%94%A8%E5%B7%A5%E5%85%B7/" itemprop="url" rel="index"><span itemprop="name">應用工具</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><img src="/images/caddylaravel.gif"></p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2024/09/24/%E4%BD%BF%E7%94%A8Caddy%E9%83%A8%E7%BD%B2Laravel%E9%96%8B%E7%99%BC%E7%92%B0%E5%A2%83/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://tpdnxu.github.io/2024/09/24/%E8%B7%A8%E5%B9%B3%E5%8F%B0SSH%E5%AE%A2%E6%88%B6%E7%AB%AFTermius/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Sam">
+      <meta itemprop="description" content="找一件可以做很久的事">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="後端開發技術分享">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/09/24/%E8%B7%A8%E5%B9%B3%E5%8F%B0SSH%E5%AE%A2%E6%88%B6%E7%AB%AFTermius/" class="post-title-link" itemprop="url">跨平台SSH客戶端Termius</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+              
+
+              <time title="創建時間：2024-09-24 10:22:29 / 修改時間：10:40:06" itemprop="dateCreated datePublished" datetime="2024-09-24T10:22:29+08:00">2024-09-24</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%87%89%E7%94%A8%E5%B7%A5%E5%85%B7/" itemprop="url" rel="index"><span itemprop="name">應用工具</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><img src="/images/termius3.png"></p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2024/09/24/%E8%B7%A8%E5%B9%B3%E5%8F%B0SSH%E5%AE%A2%E6%88%B6%E7%AB%AFTermius/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://tpdnxu.github.io/2024/09/24/VSCode-Windows%E5%BF%AB%E6%8D%B7%E9%8D%B5/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Sam">
+      <meta itemprop="description" content="找一件可以做很久的事">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="後端開發技術分享">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/09/24/VSCode-Windows%E5%BF%AB%E6%8D%B7%E9%8D%B5/" class="post-title-link" itemprop="url">VSCode Windows快捷鍵</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+              
+
+              <time title="創建時間：2024-09-24 10:16:26 / 修改時間：10:18:29" itemprop="dateCreated datePublished" datetime="2024-09-24T10:16:26+08:00">2024-09-24</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%87%89%E7%94%A8%E5%B7%A5%E5%85%B7/" itemprop="url" rel="index"><span itemprop="name">應用工具</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><img src="/images/vscodekeymap.png"></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
     <link itemprop="mainEntityOfPage" href="https://tpdnxu.github.io/2024/09/23/%E5%9C%A8VSCode%E9%85%8D%E7%BD%AEPHP%E9%99%A4%E9%8C%AF%E5%B7%A5%E5%85%B7XDebug/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="Sam">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="找一件可以做很久的事">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -268,7 +489,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="Sam">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="找一件可以做很久的事">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -343,7 +564,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="Sam">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="找一件可以做很久的事">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -418,7 +639,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="Sam">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="找一件可以做很久的事">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -493,7 +714,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="Sam">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="找一件可以做很久的事">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -568,7 +789,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="Sam">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="找一件可以做很久的事">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -643,7 +864,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="Sam">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="找一件可以做很久的事">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -718,7 +939,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="Sam">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="找一件可以做很久的事">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -793,7 +1014,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="Sam">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="找一件可以做很久的事">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -868,7 +1089,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="Sam">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="找一件可以做很久的事">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -943,7 +1164,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="Sam">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="找一件可以做很久的事">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -1024,7 +1245,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="Sam">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="找一件可以做很久的事">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -1077,249 +1298,6 @@
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2024/09/22/%E5%9C%A8Linux%E7%B3%BB%E7%B5%B1%E5%AE%89%E8%A3%9DWarp/#more" rel="contents">
-                閱讀全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://tpdnxu.github.io/2024/09/22/WSL%E9%80%9A%E9%81%8E%E5%B0%8E%E5%85%A5%E9%8F%A1%E5%83%8F%E5%AE%89%E8%A3%9DCentOS9/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Sam">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="後端開發技術分享">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/09/22/WSL%E9%80%9A%E9%81%8E%E5%B0%8E%E5%85%A5%E9%8F%A1%E5%83%8F%E5%AE%89%E8%A3%9DCentOS9/" class="post-title-link" itemprop="url">WSL通過導入鏡像安裝CentOS9</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">發表於</span>
-
-              <time title="創建時間：2024-09-22 15:24:57" itemprop="dateCreated datePublished" datetime="2024-09-22T15:24:57+08:00">2024-09-22</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2024-09-23 13:18:19" itemprop="dateModified" datetime="2024-09-23T13:18:19+08:00">2024-09-23</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分類於</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%87%89%E7%94%A8%E5%B7%A5%E5%85%B7/" itemprop="url" rel="index"><span itemprop="name">應用工具</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p><img src="/images/wslcentos.jpg"></p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2024/09/22/WSL%E9%80%9A%E9%81%8E%E5%B0%8E%E5%85%A5%E9%8F%A1%E5%83%8F%E5%AE%89%E8%A3%9DCentOS9/#more" rel="contents">
-                閱讀全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://tpdnxu.github.io/2024/09/22/%E4%BD%BF%E7%94%A8Oh-My-Posh%E7%BE%8E%E5%8C%96%E7%B5%82%E7%AB%AF%E4%BB%8B%E9%9D%A2/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Sam">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="後端開發技術分享">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/09/22/%E4%BD%BF%E7%94%A8Oh-My-Posh%E7%BE%8E%E5%8C%96%E7%B5%82%E7%AB%AF%E4%BB%8B%E9%9D%A2/" class="post-title-link" itemprop="url">使用Oh My Posh美化終端介面</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">發表於</span>
-
-              <time title="創建時間：2024-09-22 14:23:39" itemprop="dateCreated datePublished" datetime="2024-09-22T14:23:39+08:00">2024-09-22</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2024-09-23 10:52:41" itemprop="dateModified" datetime="2024-09-23T10:52:41+08:00">2024-09-23</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分類於</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%87%89%E7%94%A8%E5%B7%A5%E5%85%B7/" itemprop="url" rel="index"><span itemprop="name">應用工具</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p><img src="/images/ohmyposh.jpg"></p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2024/09/22/%E4%BD%BF%E7%94%A8Oh-My-Posh%E7%BE%8E%E5%8C%96%E7%B5%82%E7%AB%AF%E4%BB%8B%E9%9D%A2/#more" rel="contents">
-                閱讀全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://tpdnxu.github.io/2024/09/22/%E7%B7%A8%E7%A8%8B%E6%8E%A8%E8%96%A6%E4%BD%BF%E7%94%A8%E7%9A%84%E5%AD%97%E9%AB%94/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Sam">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="後端開發技術分享">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/09/22/%E7%B7%A8%E7%A8%8B%E6%8E%A8%E8%96%A6%E4%BD%BF%E7%94%A8%E7%9A%84%E5%AD%97%E9%AB%94/" class="post-title-link" itemprop="url">編程推薦使用的字體</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">發表於</span>
-
-              <time title="創建時間：2024-09-22 14:08:40" itemprop="dateCreated datePublished" datetime="2024-09-22T14:08:40+08:00">2024-09-22</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2024-09-23 15:14:18" itemprop="dateModified" datetime="2024-09-23T15:14:18+08:00">2024-09-23</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分類於</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%85%B6%E4%BB%96/" itemprop="url" rel="index"><span itemprop="name">其他</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p><a target="_blank" rel="noopener" href="https://fonts.google.com/specimen/Fira+Code?query=fira&classification=Monospace">Fira Code</a><br><img src="https://miro.medium.com/v2/resize:fit:828/format:webp/0*M8OwSeV8gKvw1gd4.png"></p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2024/09/22/%E7%B7%A8%E7%A8%8B%E6%8E%A8%E8%96%A6%E4%BD%BF%E7%94%A8%E7%9A%84%E5%AD%97%E9%AB%94/#more" rel="contents">
                 閱讀全文 &raquo;
               </a>
             </div>
@@ -1403,14 +1381,14 @@
     <img class="site-author-image" itemprop="image" alt="Sam"
       src="/images/avatar.jpg">
   <p class="site-author-name" itemprop="name">Sam</p>
-  <div class="site-description" itemprop="description"></div>
+  <div class="site-description" itemprop="description">找一件可以做很久的事</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">18</span>
+          <span class="site-state-item-count">21</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
@@ -1423,7 +1401,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">20</span>
+        <span class="site-state-item-count">22</span>
         <span class="site-state-item-name">標籤</span></a>
       </div>
   </nav>
