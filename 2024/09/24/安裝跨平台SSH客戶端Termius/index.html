@@ -14,10 +14,11 @@
 
 
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"tpdnxu.github.io","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
+    var CONFIG = {"hostname":"tpdnxu.github.io","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
   </script>
 
   <meta property="og:type" content="article">
@@ -27,7 +28,7 @@
 <meta property="og:locale" content="zh_TW">
 <meta property="og:image" content="https://tpdnxu.github.io/images/termius3.png">
 <meta property="article:published_time" content="2024-09-24T02:22:29.000Z">
-<meta property="article:modified_time" content="2024-09-24T05:00:48.096Z">
+<meta property="article:modified_time" content="2024-09-25T04:48:52.642Z">
 <meta property="article:author" content="Sam">
 <meta property="article:tag" content="Termius">
 <meta name="twitter:card" content="summary">
@@ -181,6 +182,9 @@
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
+  <div class="reading-progress-bar"></div>
+
+  <a href="https://github.com/yourname" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
 
 
     <main class="main">
@@ -217,9 +221,8 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">發表於</span>
-              
 
-              <time title="創建時間：2024-09-24 10:22:29 / 修改時間：13:00:48" itemprop="dateCreated datePublished" datetime="2024-09-24T10:22:29+08:00">2024-09-24</time>
+              <time title="創建時間：2024-09-24 10:22:29" itemprop="dateCreated datePublished" datetime="2024-09-24T10:22:29+08:00">2024-09-24</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -242,10 +245,22 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p><img src="/images/termius3.png"></p>
+        <p><img data-src="/images/termius3.png"></p>
 <span id="more"></span>
+<h5 id="什麼是Termius"><a href="#什麼是Termius" class="headerlink" title="什麼是Termius"></a>什麼是Termius</h5><p><a target="_blank" rel="noopener" href="https://termius.com/">Termius</a> 是一款現代化的跨平台SSH客戶端和終端，通過在安全的SSH通道上連接到遠程服務器、虛擬機和網路設備進行管理和操作。</p>
+<h5 id="Termius有哪些特點"><a href="#Termius有哪些特點" class="headerlink" title="Termius有哪些特點"></a>Termius有哪些特點</h5><ul>
+<li>跨平台支持: Termius提供了Windows、macOS、Linux以及iOS和Android的客戶端。</li>
+<li>多標籤界面: 輕鬆管理多個同時連接。</li>
+<li>密鑰管理: 內建密鑰生成和管理功能，提高安全性。</li>
+<li>數據同步: 通過Termius雲服務在多個設備間同步配置。</li>
+<li>端口轉發: 支援本地和遠程端口轉發，保障數據傳輸的安全。</li>
+<li>自動化腳本: 使用SNIPPETS自動化重複的任務。</li>
+</ul>
+<h5 id="下載並安裝Termius"><a href="#下載並安裝Termius" class="headerlink" title="下載並安裝Termius"></a>下載並安裝Termius</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 前往Termius官網下載適合你操作系統的Termius版本</span></span><br><span class="line">- https://www.termius.com/free-ssh-client-for-windows</span><br></pre></td></tr></table></figure>
 
-<h4 id="下載安裝"><a href="#下載安裝" class="headerlink" title="下載安裝"></a>下載安裝</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Winget</span></span><br><span class="line">$ winget install --<span class="built_in">id</span> Termius.Termius</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 使用套件管理工具Winget安裝</span></span><br><span class="line">$ winget install --<span class="built_in">id</span> Termius.Termius</span><br></pre></td></tr></table></figure>
+
+<h5 id="更新Termius版本"><a href="#更新Termius版本" class="headerlink" title="更新Termius版本"></a>更新Termius版本</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 更新至最新版本</span></span><br><span class="line">$ winget upgrade Termius.Termius</span><br></pre></td></tr></table></figure>
     </div>
 
     
@@ -253,8 +268,9 @@
     
 
       <footer class="post-footer">
+          
           <div class="post-tags">
-              <a href="/tags/Termius/" rel="tag"># Termius</a>
+              <a href="/tags/Termius/" rel="tag"><i class="fa fa-tag"></i> Termius</a>
           </div>
 
         
@@ -328,7 +344,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%8B%E8%BC%89%E5%AE%89%E8%A3%9D"><span class="nav-number">1.</span> <span class="nav-text">下載安裝</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%BB%80%E9%BA%BC%E6%98%AFTermius"><span class="nav-number">1.</span> <span class="nav-text">什麼是Termius</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Termius%E6%9C%89%E5%93%AA%E4%BA%9B%E7%89%B9%E9%BB%9E"><span class="nav-number">2.</span> <span class="nav-text">Termius有哪些特點</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%B8%8B%E8%BC%89%E4%B8%A6%E5%AE%89%E8%A3%9DTermius"><span class="nav-number">3.</span> <span class="nav-text">下載並安裝Termius</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%9B%B4%E6%96%B0Termius%E7%89%88%E6%9C%AC"><span class="nav-number">4.</span> <span class="nav-text">更新Termius版本</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -362,6 +378,14 @@
       </div>
   </nav>
 </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/yourname" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;yourname" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:tpdnxu@gmail.com" title="E-Mail → mailto:tpdnxu@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
 
 
 
@@ -409,6 +433,9 @@
   
   <script src="/lib/anime.min.js"></script>
   <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
 
