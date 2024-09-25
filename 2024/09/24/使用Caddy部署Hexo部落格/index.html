@@ -28,7 +28,7 @@
 <meta property="og:locale" content="zh_TW">
 <meta property="og:image" content="https://tpdnxu.github.io/images/caddyhexo.jpg">
 <meta property="article:published_time" content="2024-09-24T03:47:08.000Z">
-<meta property="article:modified_time" content="2024-09-24T04:09:13.993Z">
+<meta property="article:modified_time" content="2024-09-25T06:29:37.350Z">
 <meta property="article:author" content="Sam">
 <meta property="article:tag" content="Caddy">
 <meta property="article:tag" content="Hexo">
@@ -129,17 +129,17 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤<span class="badge">22</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤<span class="badge">21</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類<span class="badge">2</span></a>
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類<span class="badge">3</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔<span class="badge">22</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔<span class="badge">23</span></a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -248,9 +248,9 @@
       
         <p><img data-src="/images/caddyhexo.jpg"></p>
 <span id="more"></span>
-<h4 id="生成網頁"><a href="#生成網頁" class="headerlink" title="生成網頁"></a>生成網頁</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 生成Hexo靜態頁面</span></span><br><span class="line">$ hexo clean &amp;&amp; hexo generate</span><br></pre></td></tr></table></figure>
+<h4 id="生成網站的靜態頁面"><a href="#生成網站的靜態頁面" class="headerlink" title="生成網站的靜態頁面"></a>生成網站的靜態頁面</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 重新生成public目錄</span></span><br><span class="line">$ hexo clean &amp;&amp; hexo generate</span><br></pre></td></tr></table></figure>
 
-<h4 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 編輯Caddy配置文件</span></span><br><span class="line">$ cursor Caddyfile</span><br></pre></td></tr></table></figure>
+<h4 id="配置Caddyfile"><a href="#配置Caddyfile" class="headerlink" title="配置Caddyfile"></a>配置Caddyfile</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 編輯Caddy配置文件</span></span><br><span class="line">$ cursor Caddyfile</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo.local &#123;</span><br><span class="line">	root C:\AppServ\hexo\blog\public</span><br><span class="line">	file_server</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
@@ -258,7 +258,7 @@
 
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">127.0.0.1   hexo.local</span><br></pre></td></tr></table></figure>
 
-<h4 id="運行服務"><a href="#運行服務" class="headerlink" title="運行服務"></a>運行服務</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 運行Caddy服務</span></span><br><span class="line">$ caddy run</span><br></pre></td></tr></table></figure>
+<h4 id="運行Caddy服務並訪問網站"><a href="#運行Caddy服務並訪問網站" class="headerlink" title="運行Caddy服務並訪問網站"></a>運行Caddy服務並訪問網站</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 運行Caddy服務</span></span><br><span class="line">$ caddy run</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 訪問網站</span></span><br><span class="line">- https://hexo.local</span><br></pre></td></tr></table></figure>
     </div>
@@ -283,7 +283,10 @@
     <a href="/2024/09/24/%E4%BD%BF%E7%94%A8Caddy%E9%83%A8%E7%BD%B2Laravel%E6%A1%86%E6%9E%B6/" rel="prev" title="使用Caddy部署Laravel框架">
       <i class="fa fa-chevron-left"></i> 使用Caddy部署Laravel框架
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2024/09/25/%E5%AE%89%E8%A3%9D%E7%8F%BE%E4%BB%A3%E5%8C%96Linux%E7%B5%82%E7%AB%AFWave-Terminal/" rel="next" title="安裝現代化Linux終端Wave Terminal">
+      安裝現代化Linux終端Wave Terminal <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -342,7 +345,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E7%B6%B2%E9%A0%81"><span class="nav-number">1.</span> <span class="nav-text">生成網頁</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"><span class="nav-number">2.</span> <span class="nav-text">配置文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%81%8B%E8%A1%8C%E6%9C%8D%E5%8B%99"><span class="nav-number">3.</span> <span class="nav-text">運行服務</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E7%B6%B2%E7%AB%99%E7%9A%84%E9%9D%9C%E6%85%8B%E9%A0%81%E9%9D%A2"><span class="nav-number">1.</span> <span class="nav-text">生成網站的靜態頁面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%85%8D%E7%BD%AECaddyfile"><span class="nav-number">2.</span> <span class="nav-text">配置Caddyfile</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%81%8B%E8%A1%8CCaddy%E6%9C%8D%E5%8B%99%E4%B8%A6%E8%A8%AA%E5%95%8F%E7%B6%B2%E7%AB%99"><span class="nav-number">3.</span> <span class="nav-text">運行Caddy服務並訪問網站</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -358,20 +361,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-count">23</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">分類</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">22</span>
+        <span class="site-state-item-count">21</span>
         <span class="site-state-item-name">標籤</span></a>
       </div>
   </nav>

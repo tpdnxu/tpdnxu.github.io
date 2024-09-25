@@ -2,6 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tpdnxu.github.io/2024/09/22/AI%E6%99%82%E4%BB%A3%E4%B8%8B%E7%9A%84%E7%B5%82%E7%AB%AF%E6%A9%9FWarp/</loc>
+    
+    <lastmod>2024-09-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/2024/09/23/Windows%E7%B5%82%E7%AB%AF%E6%A9%9F%E6%8E%A8%E8%96%A6Windows-Terminal/</loc>
+    
+    <lastmod>2024-09-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/2024/09/25/%E5%AE%89%E8%A3%9D%E7%8F%BE%E4%BB%A3%E5%8C%96Linux%E7%B5%82%E7%AB%AFWave-Terminal/</loc>
+    
+    <lastmod>2024-09-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/2024/09/23/AI%E7%A8%8B%E5%BC%8F%E7%B7%A8%E8%BC%AF%E5%99%A8Cursor/</loc>
+    
+    <lastmod>2024-09-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/2024/09/24/%E4%BD%BF%E7%94%A8Caddy%E9%83%A8%E7%BD%B2Hexo%E9%83%A8%E8%90%BD%E6%A0%BC/</loc>
+    
+    <lastmod>2024-09-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/2024/09/20/%E4%BD%BF%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E9%83%A8%E8%90%BD%E6%A0%BC/</loc>
+    
+    <lastmod>2024-09-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tpdnxu.github.io/2024/09/24/%E5%AE%89%E8%A3%9D%E8%B7%A8%E5%B9%B3%E5%8F%B0SSH%E5%AE%A2%E6%88%B6%E7%AB%AFTermius/</loc>
     
     <lastmod>2024-09-25</lastmod>
@@ -56,15 +110,6 @@
   </url>
   
   <url>
-    <loc>https://tpdnxu.github.io/2024/09/20/%E4%BD%BF%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E9%83%A8%E8%90%BD%E6%A0%BC/</loc>
-    
-    <lastmod>2024-09-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tpdnxu.github.io/2024/09/23/%E4%BD%BF%E7%94%A8gsudo%E6%8F%90%E5%8D%87Windows%E7%B3%BB%E7%B5%B1%E7%AE%A1%E7%90%86%E5%93%A1%E6%AC%8A%E9%99%90/</loc>
     
     <lastmod>2024-09-24</lastmod>
@@ -75,15 +120,6 @@
   
   <url>
     <loc>https://tpdnxu.github.io/2024/09/23/Windows%E5%AE%89%E8%A3%9DPowerShell/</loc>
-    
-    <lastmod>2024-09-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tpdnxu.github.io/2024/09/22/Linux%E7%B3%BB%E7%B5%B1%E5%AE%89%E8%A3%9DWarp/</loc>
     
     <lastmod>2024-09-24</lastmod>
     
@@ -110,15 +146,6 @@
   </url>
   
   <url>
-    <loc>https://tpdnxu.github.io/2024/09/24/%E4%BD%BF%E7%94%A8Caddy%E9%83%A8%E7%BD%B2Hexo%E9%83%A8%E8%90%BD%E6%A0%BC/</loc>
-    
-    <lastmod>2024-09-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tpdnxu.github.io/2024/09/23/%E4%BD%BF%E7%94%A8Node-Version-Manager%E5%88%87%E6%8F%9BNode%E7%89%88%E6%9C%AC/</loc>
     
     <lastmod>2024-09-23</lastmod>
@@ -128,25 +155,7 @@
   </url>
   
   <url>
-    <loc>https://tpdnxu.github.io/2024/09/23/%E5%AE%89%E8%A3%9D%E7%8F%BE%E4%BB%A3%E5%8C%96%E7%B5%82%E7%AB%AF%E6%A9%9FWindows-Terminal/</loc>
-    
-    <lastmod>2024-09-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tpdnxu.github.io/2024/09/22/WSL%E9%80%9A%E9%81%8E%E5%B0%8E%E5%85%A5%E9%8F%A1%E5%83%8F%E5%AE%89%E8%A3%9DCentOS9/</loc>
-    
-    <lastmod>2024-09-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tpdnxu.github.io/2024/09/23/AI%E7%A8%8B%E5%BC%8F%E7%B7%A8%E8%BC%AF%E5%99%A8Cursor/</loc>
     
     <lastmod>2024-09-23</lastmod>
     
@@ -236,21 +245,14 @@
 
   
   <url>
+    <loc>https://tpdnxu.github.io/tags/Terminal/</loc>
+    <lastmod>2024-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://tpdnxu.github.io/tags/Cursor/</loc>
-    <lastmod>2024-09-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tpdnxu.github.io/tags/Warp/</loc>
-    <lastmod>2024-09-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tpdnxu.github.io/tags/PHP/</loc>
     <lastmod>2024-09-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -264,28 +266,7 @@
   </url>
   
   <url>
-    <loc>https://tpdnxu.github.io/tags/Caddy/</loc>
-    <lastmod>2024-09-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tpdnxu.github.io/tags/Hexo/</loc>
-    <lastmod>2024-09-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tpdnxu.github.io/tags/PowerShell/</loc>
-    <lastmod>2024-09-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tpdnxu.github.io/tags/Laravel/</loc>
+    <loc>https://tpdnxu.github.io/tags/PHP/</loc>
     <lastmod>2024-09-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -306,7 +287,28 @@
   </url>
   
   <url>
-    <loc>https://tpdnxu.github.io/tags/OhMyPosh/</loc>
+    <loc>https://tpdnxu.github.io/tags/PowerShell/</loc>
+    <lastmod>2024-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/tags/Caddy/</loc>
+    <lastmod>2024-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/tags/Laravel/</loc>
+    <lastmod>2024-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/tags/Hexo/</loc>
     <lastmod>2024-09-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -327,13 +329,6 @@
   </url>
   
   <url>
-    <loc>https://tpdnxu.github.io/tags/Pathman/</loc>
-    <lastmod>2024-09-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://tpdnxu.github.io/tags/Starship/</loc>
     <lastmod>2024-09-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -341,14 +336,7 @@
   </url>
   
   <url>
-    <loc>https://tpdnxu.github.io/tags/WinSW/</loc>
-    <lastmod>2024-09-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tpdnxu.github.io/tags/X-CMD/</loc>
+    <loc>https://tpdnxu.github.io/tags/OhMyPosh/</loc>
     <lastmod>2024-09-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -362,6 +350,20 @@
   </url>
   
   <url>
+    <loc>https://tpdnxu.github.io/tags/Pathman/</loc>
+    <lastmod>2024-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tpdnxu.github.io/tags/WinSW/</loc>
+    <lastmod>2024-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://tpdnxu.github.io/tags/gsudo/</loc>
     <lastmod>2024-09-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -369,7 +371,7 @@
   </url>
   
   <url>
-    <loc>https://tpdnxu.github.io/tags/Windows-Terminal/</loc>
+    <loc>https://tpdnxu.github.io/tags/X-CMD/</loc>
     <lastmod>2024-09-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -390,6 +392,13 @@
   </url>
   
 
+  
+  <url>
+    <loc>https://tpdnxu.github.io/categories/%E7%B5%82%E7%AB%AF%E6%A9%9F/</loc>
+    <lastmod>2024-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://tpdnxu.github.io/categories/%E6%87%89%E7%94%A8%E5%B7%A5%E5%85%B7/</loc>
